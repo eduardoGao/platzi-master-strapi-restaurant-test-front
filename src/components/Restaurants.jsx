@@ -18,7 +18,7 @@ function Restaurants() {
       <ul className={styles.restaurants}>
         {restaurants.map((item) => (
           <li key={item.id} className={styles.item}>
-            <img src={item.image[0].name} alt={item.alt} />
+            {/* <img src={item.image[0].name} alt={item.alt} /> */}
             <h2>{item.name}</h2>
             <p>{item.description}</p>
           </li>
